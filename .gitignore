@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.log
+.env
+.pytest_cache/
+.ruff_cache/
+.coverage
+*.tfstate*
+*.tfvars
+.terraform/
+*.retry
+*.pem
+*.key

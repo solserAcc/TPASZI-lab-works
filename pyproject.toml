@@ -1,0 +1,13 @@
+[project]
+name = "FastAPI-project"
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "C", "N", "D", "UP", "B", "A", "SIM", "I"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"

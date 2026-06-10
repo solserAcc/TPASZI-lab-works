@@ -1,0 +1,6 @@
+-r requirements.txt
+pytest==7.4.3
+httpx==0.25.1
+ruff==0.1.6
+pylint==3.0.2
+bandit==1.7.6
