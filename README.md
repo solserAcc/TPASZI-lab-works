@@ -110,6 +110,7 @@ docker compose up --build
 - `main.tf`
 - `terraform.tfvars.example`
 - `variables.tf`
+
 Подготовьте переменные в файле перед запуском в `terraform/terraform.tfvars`:
 
 Запуск:
